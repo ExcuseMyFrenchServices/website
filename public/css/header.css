@@ -1,0 +1,104 @@
+/*
+*------------------------------------------------------------------------------------------------------------
+* [Header]
+*------------------------------------------------------------------------------------------------------------
+*/
+#header
+{
+	height: 80vh;
+}
+#header h1
+{
+	margin-top: 25vh;
+	margin-bottom: 0;
+	font-size: 4em;
+	font-family: 'semplicita';
+	letter-spacing: 2px;
+}
+#header h2
+{
+	font-size: 2em;
+	font-family: 'semplicita-light';
+}
+#header #content	
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: justify;
+	text-align-last: center;
+	background-color: rgb(35,31,32);
+}
+#header #content p
+{
+	text-transform: initial;
+	text-align: justify;
+	text-align-last: center;
+	letter-spacing: initial;
+	padding: 1vw 6vw;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	color: #A35625;
+	font-size: 19px;
+	line-height: 22px;
+}
+#headerImage
+{
+	height: 100%;
+}
+.grayHeader
+{
+	filter: grayscale(100%) opacity(50%);
+}
+#header > p
+{
+	top: 25vh;
+	font-size: 4em;
+	font-family: "semplicita-light";
+}
+@media screen and (max-width: 992px)
+{
+	#header > p
+	{
+		font-size: 3em;
+	}
+	#header #content p
+	{
+		font-size: 1em;
+	}
+}
+@media screen and (max-width: 767px)
+{
+	#header
+	{
+		margin-top: 75px;
+	}
+	#headerImage
+	{
+		position: initial;
+	}
+	#header .background-image
+	{
+		height: 100%;
+	}
+	#header h1
+	{
+		position: absolute;
+		top: 0;
+		font-size: 2em;
+		letter-spacing: 5px;
+	}
+	#header > p
+	{
+		position: absolute;
+		top: 10vh;
+    	font-size: 20px;
+    	letter-spacing: 2px;
+    	width: 100vw;
+	}
+	#header #content p
+	{
+		font-size: 12px;
+		line-height: 15px;
+	}
+}

@@ -1,0 +1,97 @@
+#services-body h3
+{
+	font-size:1.5vw;
+	letter-spacing:10px;
+	text-align:center;
+	margin: 0;
+}
+#services-body .service
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+#services-body div p
+{
+	margin:initial;
+	padding:initial;
+	font-size:	14px;
+}
+#services-body div
+{
+	overflow:hidden
+}
+#services-body .service-img-container
+{
+	height:60vh;
+}
+#services-body .service-content
+{
+	position: absolute;
+	padding: 10%;
+}
+#services-body .services-title
+{
+	height: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 33vw;
+}
+.bigger-top
+{
+	top: 25%;
+}
+#services-body .bigger-font h3
+{
+	font-size: 2.8vw;
+}
+#services-body .bigger-font h4
+{
+	font-size: 2.5vw;
+}
+@media screen and (max-width: 992px)
+{
+	#services-body .services-title
+	{
+		width: 100vw;
+	}
+	#services-body h3
+	{	
+		font-size: 2em;
+	}
+}
+@media screen and (max-width: 767px)
+{
+	#services-body .service-img-container
+	{
+		height: 100vh;
+	}
+	#services-body .services-title
+	{
+		height: initial;
+		width: 100vw;
+	}	
+	#services-body h2
+	{
+		font-size: 18px;
+	}
+	#services-body h3
+	{
+		font-size:15px;
+		letter-spacing: 5px;
+	}
+
+	#services-body .bigger-font h3
+	{
+		font-size: 10vw;
+	}
+
+	#services-body .bigger-font h4
+	{
+		font-size: 8vw;
+	}
+
+	#services-body div p
+	{
+		font-size: 10px;
+	}
+}

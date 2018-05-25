@@ -1,0 +1,154 @@
+#background-image
+{
+	background: url('../images/home-min.jpg') center no-repeat;
+	background-size: cover;
+}
+#content
+{
+	position: inherit;
+}
+#landing-page h1
+{
+	margin-top: 150px;
+}
+	#landing-page h2
+	{
+		margin-top: 50px;
+	}
+#landing-page h1>img
+{
+	width: 30%;
+	height: 25%;
+}
+#landing-page h3
+{
+	font-size: 3.5vw;
+	letter-spacing: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#landing-page h4
+{
+	font-size: 1.5vw;
+	letter-spacing: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#landing-page ul div
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+#landing-page h3 a 
+{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#landing-page h3 a:hover
+{
+	text-shadow: 10px 10px 10px rgba(0,0,0,.5);
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+        background-clip: text;
+}
+#landing-pages-links
+{
+	width:100%;
+	text-align:justify;
+	text-align-last:center;
+	margin-top: 50vh;
+}
+.fondu
+{
+	animation-name: opacityLess; 
+	animation-duration:1s; 
+	animation-timing-function:ease-out;
+}
+.list-inline > li
+{
+	height: 25vh;
+}
+
+@keyframes opacityLess {
+	from	{	opacity:0	}
+	to 		{	opacity: 0.4	}
+}
+
+/***
+*	
+*	Media Queries 
+*
+***/
+@media screen and (max-width: 1199px){
+	#landing-page h3
+	{
+		margin-top: 100px;
+	}
+	#landing-page ul div
+	{
+		margin-top: 80px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	#landing-page h3
+	{
+		font-size: 3em;
+	}
+	#landing-page h4
+	{
+		font-size: 2em;
+	}
+	#landing-pages-links
+	{
+		margin-top: 30%;
+	}
+}
+@media screen and (max-width: 767px){
+	#landing-page h1
+	{
+		margin-top: 60px;
+	}
+	#landing-page h2
+	{
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	#landing-page h3
+	{
+		margin-top: 60px;
+	}
+	#landing-page h4
+	{
+		font-size: 1.5em;
+	}
+	#landing-page h1>img
+	{
+		width: 60%;
+	}
+	#landing-page ul div
+	{
+		margin-top: 0;
+		margin-bottom: 60px;
+		border-radius: 2px;
+		height: 30px;
+	}
+	#landing-page ul div li
+	{
+		font-size: 11px;
+	}
+	#landing-page .list-inline
+	{
+		margin-left: initial;
+	}
+	#landing-page h3 a 
+	{
+		margin: initial;
+	}
+
+	#landing-pages-links
+	{
+		margin-top: 35vh;
+	}
+}

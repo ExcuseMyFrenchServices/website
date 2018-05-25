@@ -1,0 +1,118 @@
+/*
+*------------------------------------------------------------------------------------------------------------
+* [Testimonials]
+*------------------------------------------------------------------------------------------------------------
+*/
+#testimonials 
+{
+	padding: 40px 60px;
+}	
+#testimonials .carousel-caption
+{
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-top: 70px;
+	text-shadow: initial;
+}
+#testimonials .carousel-indicators
+{
+	bottom: -5vh;
+}
+#testimonials .carousel-inner p
+{
+	text-align: justify;
+	text-align-last: center; 
+	line-height: 16px;
+	color: black;
+	font-size: 12px;
+}
+#testimonials h4
+{
+	margin-top: 4vh;
+	margin-bottom: -3vh;
+	text-align: center;
+	font-size: 1.5vh;
+	color: black;
+}
+#testimonials span
+{
+	position: absolute;
+	color: transparent;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.1);
+	top: 125px;
+}
+#testimonials .fa-chevron-right
+{
+	right: -65px;
+}
+#testimonials .fa-chevron-left
+{
+	left: -65px;
+}
+#testimonials .quote-left
+{
+	top: 20vh;
+	left: 20vw;
+}
+#testimonials .quote-right
+{
+	bottom: 25vh;
+	right: 20vw;
+}
+#testimonials a
+{
+	background-image: none;
+}
+#testimonials .item
+{
+	left: -1px;
+}
+@media screen and (max-width: 992px)
+{
+	#testimonials
+	{
+		padding: 40px 0px;
+	}
+	#testimonials .carousel-caption
+	{
+		padding-top: 0;
+	}
+}
+@media screen and (max-width: 767px)
+{
+	#testimonials 
+	{
+		padding: 0;
+	}
+	#testimonials h3
+	{
+		letter-spacing: 2px;
+		font-size: 16px;
+	}
+	#testimonials span
+	{
+		font-size: 2em;
+	}
+	.carousel-control.left,
+	.carousel-control.right
+	{
+		margin-top: 150px;
+	}
+	.carousel-control.left
+	{
+		margin-left: -30px;
+	}
+	#testimonials .carousel-indicators
+	{
+		bottom: -12vh;
+	}
+	#testimonials .carousel-caption
+	{
+		padding-top: 20px;
+	}
+	#testimonials h4
+	{
+		font-size: 1em;
+	}
+}
